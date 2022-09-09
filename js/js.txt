@@ -1,0 +1,1 @@
+Essa pasta conterá os arquivos em Java script utilizados para o funcionamento da pagina web do projeto.

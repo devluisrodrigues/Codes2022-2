@@ -1,0 +1,1 @@
+Essa pasta conterá os arquivos referentes as imagens do projeto, como por exemplo, as imagens que serão utilizadas no site, imagens de fundo, imagens de botões, imagens de ícones, etc.

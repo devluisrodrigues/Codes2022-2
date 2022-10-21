@@ -1,53 +1,136 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sua Lista</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+
+<body class="fundo">
     <header>
         <a href="index.html"><img src="img/arrow.png" alt="volte para o menu" height="30" width="30"></a>
-        <h1>Sua Lista</h1>
     </header>
     <main>
         <ul>
-            <li><h2>Seus Próximos Eventos:</h2></li>
-        </ul> 
-        <div style="background: ghostwhite; 
-            font-size: 20px; 
-            padding: 10px; 
-            border: 1px solid lightgray; 
-            margin: 10px; height: 100px; width: 150px;">
-            Dia 10/09
-            Ta Dando Onda
-        </div>
-        <div style="background: ghostwhite; 
-            font-size: 20px; 
-            padding: 10px; 
-            border: 1px solid lightgray; 
-            margin: 10px; height: 100px; width: 150px;">
-            Dia 24/09
-            O Rei Leão
-        </div>
-
-        <ul>
-            <li><h2>Seus Filmes:</h2></li>
+            <li class="texto">
+                <h2>Seus Próximos Eventos:</h2>
+            </li>
         </ul>
-        <a href="https://play.hbomax.com/player/urn:hbo:feature:GYICWEQzzIoa3iAEAAAEH" target="_blank"><img src="img/TaDandoOnda.jpg" alt="Capa filme ta dando onda" height="400" width="300"></a>
-        <a href="https://www.disneyplus.com/pt-br/movies/o-rei-leao/gDBvSe4GpZPD" target="_blank"><img src="img/ReiLeao.jpg" alt="Capa filme o rei leão" height="400" width="300"></a>
+        <ul class="carrosel">
+            <li>
+                <p class="calendario">
+                    Dia 10/08
+                    She Hulk
+                    <a href="https://www.disneyplus.com/"><img src="img/Disney+.png" alt="Disney button"
+                        height="40vh" width="70vw"></a>
+                </p>
+            </li>
+            <li>
+                <p class="calendario">
+                    Dia 27/08
+                    Demolidor
+                    <a href="https://www.disneyplus.com/"><img src="img/Disney+.png" alt="Disney button"
+                        height="40vh" width="70vw"></a>
+                </p>
+            </li>
+            <li>
+                <p class="calendario">
+                    Dia 10/09
+                    One Piece
+                    <a href="https://www.netflix.com/br/"><img src="img/netflix.png" alt="Netflix button"
+                        height="40vh" width="40vh"></a>
+                </p>
+            </li>
+            <li>
+                <p class="calendario">
+                    Dia 24/09
+                    Kimetsu no Yaiba
+                    <a href="https://www.netflix.com/br/"><img src="img/netflix.png" alt="Netflix button"
+                        height="40vh" width="40vh"></a>
+                </p>
+            </li>
+            <li>
+                <p class="calendario">
+                    Dia 12/10
+                    Threat Level Midnight
+                    <a href="https://www.netflix.com/br/"><img src="img/netflix.png" alt="Netflix button"
+                        height="40vh" width="40vh"></a>
+                </p>
+            </li>
+            <li>
+                <p class="calendario">
+                    Dia 12/12
+                    CODES: O filme
+                    <a href="https://www.netflix.com/br/"><img src="img/netflix.png" alt="Netflix button"
+                        height="40vh" width="40vh"></a>
+                </p>
+            </li>
+        </ul>
+        <ul>
+            <li class="texto">
+                <h2>Seus Filmes:</h2>
+            </li>
+        </ul>
+        <ul class="coluna">
+            <li class="linha">
+                <a href="filmes/Barbie.html" target="_blank"><img
+                    src="img/Barbie.jpg" alt="Capa filme Barbie" height="200vh" width="150vw"></a>  
+                <ul>
+                    <li class="tituloreview">
+                        <p>Barbie Fairytopia</p>
+                    </li>
+                    <li class="colunafilmes">
+                        <p>
+                            Pokem ipsum dolor sit amet Glaceon Slakoth Luvdisc Wobbuffet Corphish Munchlax.
+                            Steel Viridian City bicycle Rage Sinnoh Wartortle Chinchou. Charizard Furret
+                            Scolipede Cerulean City Quagsire Durant Blitzle. Anim id est laborum Viridian City
+                            Vanilluxe Cyndaquil Carnivine Wailmer Skitty. Rising Badge Gloom Ice Berry Haxorus
+                            Dusclops Cryogonal Beartic.
+
+                            Hoenn Mantine Celebi Armaldo Soul Badge Solosis
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="linha">
+                <a href="filmes/Demolidor.html"><img
+                    src="img/Demolidor.jpg" alt="Capa filme Demolidor" height="200vh" width="150vw"></a>  
+                <ul>
+                    <li class="tituloreview">
+                        <p>Barbie Fairytopia</p>
+                    </li>
+                    <li class="textoreview">
+                        <p>
+                            Pokem ipsum dolor sit amet Glaceon Slakoth Luvdisc Wobbuffet Corphish Munchlax.
+                            Steel Viridian City bicycle Rage Sinnoh Wartortle Chinchou. Charizard Furret
+                            Scolipede Cerulean City Quagsire Durant Blitzle. Anim id est laborum Viridian City
+                            Vanilluxe Cyndaquil Carnivine Wailmer Skitty. Rising Badge Gloom Ice Berry Haxorus
+                            Dusclops Cryogonal Beartic.
+
+                            Hoenn Mantine Celebi Armaldo Soul Badge Solosis
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
 
     </main>
     <footer>
-        <nav>
-            <ul>
-                <li><a href="perfil.html"><img src="img/profileicon2.png" alt="Seu Perfil" height="50" width="50"></a></li>
-                <li><a href="index.html"><img src="img/homeicon.png" alt="Home" height="50" width="50"></a></li>
-                <li><a href="lista.html"><img src="img/hearticon.png" alt="Sua lista" height="50" width="50"></a></li>
-            </ul>
-          </nav>          
+        <ul class="botaocentro">
+            <li>
+                <a href="lista.html"><img src="img/listaativo.png" alt="menu"></a>
+            </li>
+            <li>
+                <a href="index.html"><img src="img/menu.png" alt="menu"></a>
+            </li>
+            <li>
+                <a href="perfil.html"><img src="img/perfil.png" alt="menu"></a>
+            </li>
+        </ul>
     </footer>
 </body>
+
 </html>

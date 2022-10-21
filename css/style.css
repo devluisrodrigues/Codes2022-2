@@ -1,10 +1,17 @@
 .menu{
     background-color: rgb(59, 7, 121);
     color: #fff;
-    padding: 2%;
-    margin: 0, 2%, 0, 2%;
+    font-size: 3rem;
+    padding: 5%;
+    margin: 0%, 2%, 0%, 2%;
     list-style: none;
     text-align: center;
+    width: 100%;
+}
+
+.fundo{
+    background-color: rgb(49, 49, 49);
+    color: black;
 }
 
 .coluna {
@@ -20,14 +27,18 @@
 }
 
 .carrosel{
+    width: 110%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     padding-bottom: 0.2rem;
-    margin: 1.5% 0% 1% 0%;
+    margin: 1.5%, 1%, 1%, 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    overflow-x: scroll;
 }
 
 .meio{
+    height: 105%;
     position: relative;
     top: -2%;
 }
@@ -42,3 +53,96 @@
     font-size: 1rem;
     font-family: Arial;
 }
+
+.botaogrande{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    width: 100%;
+    background-color: rgb(59, 7, 121);
+    color: white;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 5rem;
+    font-family: Arial;
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  /* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    width: 100%;
+    float: right;
+    padding: 2%;
+    border: none;
+    margin-top: 2%;
+    margin-right: -7%;
+    margin-bottom: 2%;
+    font-size: 2rem;
+}
+
+/* Add a black background color to the top navigation */
+.botnav {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(49, 49, 49);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .botnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1rem 5rem;
+    text-decoration: none;
+    font-size: 4rem;
+  }
+  
+  /* Change the color of links on hover */
+  .botnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .botnav a.active {
+    background-color: rgb(59, 7, 121);
+    color: white;
+  }
+  
+  /* Centered section inside the top navigation */
+  .botnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Right-aligned section inside the top navigation */
+  .botnav-right {
+    float: right;
+  }
+  
+  /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+  @media screen and (max-width: 600px) {
+    .botnav a, .botnav-right {
+      float: none;
+      display: block;
+    }
+  
+    .botnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }

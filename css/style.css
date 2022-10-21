@@ -1,0 +1,78 @@
+header{
+    border-bottom: 0.2rem solid #000000;
+    padding: 1rem 1rem 0rem 1rem;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cabeca{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 0.2rem;
+}
+
+.cabeca li h1{
+    font-size: 1.5rem;
+    font-family: Arial;
+    font-weight: bold;
+    color: #000000;
+}
+
+.cabeca li p{
+    position: absolute;
+    left: 0%;
+    top: 1%;
+}
+
+
+.botao{
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 0.2rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Arial;
+}
+
+.final{
+    position: relative;
+    left: -4.8rem;
+    margin: 1.5rem;
+}
+
+.correcao{
+    margin: 0rem;
+    /* Oi Pressor corretor, essa classe não é inútil. veja que o botao final apresenta uma linha unica, por isso, ele foi colocado fora do ul.
+    Por isso tive que corrigir sua posicao na classe "final". Porém, o hyperlink associado ao botao estava considerando
+    suas margens também. Desse modo, decidi zerá-las no botao e inserir no acerto de posição.*/
+}
+
+.flutuante{
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    bottom: 20%;
+    right: 10%;
+    border: 0.05rem solid black;
+    border-radius: 50%;
+    font-size: 3rem;
+    width: 3rem;
+}
+
+.flutuante a:link { text-decoration: none; }
+

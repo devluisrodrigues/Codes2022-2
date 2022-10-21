@@ -86,9 +86,10 @@
     border-radius: 5rem;
     padding: 1.5rem;
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: Arial;
     margin-top: 5rem;
+    margin-bottom: 12rem;
 }
 
 /* Add a black background color to the top navigation bar */
@@ -109,62 +110,20 @@
     font-size: 2rem;
 }
 
-/* Add a black background color to the top navigation */
-.botnav {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    background-color: rgb(49, 49, 49);
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .botnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 1rem 5rem;
-    text-decoration: none;
-    font-size: 4rem;
-  }
-  
-  /* Change the color of links on hover */
-  .botnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .botnav a.active {
-    background-color: rgb(59, 7, 121);
-    color: white;
-  }
-  
-  /* Centered section inside the top navigation */
-  .botnav-centered a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  /* Right-aligned section inside the top navigation */
-  .botnav-right {
-    float: right;
-  }
-  
-  /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
-  @media screen and (max-width: 600px) {
-    .botnav a, .botnav-right {
-      float: none;
-      display: block;
-    }
-  
-    .botnav-centered a {
-      position: relative;
-      top: 0;
-      left: 0;
-      transform: none;
-    }
-  }
+.botaocentro {
+  position: fixed;
+  bottom: 36px;
+  background-color: rgb(59, 7, 121);
+  color: white;
+  border-radius: 5rem;
+  padding: 0.5rem;
+  font-size: 3rem;
+  width: 60%;
+  height: 10%;
+  margin-left: 18%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;  
+  border: 1rem;
+}

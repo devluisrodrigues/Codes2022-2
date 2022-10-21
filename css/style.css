@@ -9,6 +9,27 @@
     width: 100%;
 }
 
+.arrow{
+  position: fixed;
+  top: 5%;
+  left: 2.5%;
+}
+
+.central{
+  position: relative;
+  top: 5rem;
+  left: 50%;
+  margin-bottom: 8rem;
+}
+
+.corr{
+  top:0rem;
+  margin-bottom: 0rem;
+  align-items: center;
+}
+.title{
+  
+}
 .fundo{
     background-color: rgb(49, 49, 49);
     color: black;

@@ -36,6 +36,13 @@
     color: black;
 }
 
+.fundoimagem{
+  background-color: rgb(105, 105, 105);
+  background-image: url(../img/Demolidor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .coluna {
     display: flex;
     flex-direction: column;
@@ -46,6 +53,15 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.linhaaround {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .carrosel{
@@ -76,13 +92,80 @@
   margin-bottom: 5%;
 }
 
+.textogrande{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.textograndepreto{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255)
+}
+
+.botaofilme {
+  filter: brightness(0) invert(1);
+}
+
+.textoesquerda {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+}
+
+.textooutline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 30%;
+  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255)
+}
+
 .textopequeno {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   font-size: 1rem;
   color: white;
   text-align: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.textopequenopreto {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-left: 10%;
   margin-top: 2%;
   margin-bottom: 5%;
 }
@@ -113,6 +196,20 @@
   border: .2rem solid rgb(0, 0, 0); 
   margin: 10px;
   margin-bottom: 40%;
+}
+
+.textoreviewpequeno {
+  background: rgb(184, 184, 184); 
+  font-size: 1rem; 
+  padding: 1%; 
+  border: .2rem solid rgb(0, 0, 0); 
+  margin: .5rem;
+  margin-right: 4.2rem;
+}
+
+.fotodeperfil {
+  margin-top: 3%;
+  margin-left:13%
 }
 
 .botao{
@@ -159,6 +256,7 @@
     font-family: Arial;
     margin-top: 3rem;
     margin-bottom: 12rem;
+    font-style: none;
 }
 
 .botaogrande2{
@@ -234,4 +332,45 @@
   align-items: center;
   justify-content: space-around;  
   border: 1rem;
+}
+
+.input[type=text] {
+  padding: 4% 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.inputgrande[type=text] {
+  width: 100%;
+  padding: 30% 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50%;
+  height: 400%;
+  box-sizing: border-box;
+}
+
+
+/* Style the navigation bar links */
+
+.abracadabra{
+  background-color: rgb(105, 105, 105);
+  background-image: url(../img/Abracadabra.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.barbie{
+  background-color: rgb(105, 105, 105);
+  background-image: url(../img/Barbie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.demolidor{
+  background-color: rgb(105, 105, 105);
+  background-image: url(../img/Demolidor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

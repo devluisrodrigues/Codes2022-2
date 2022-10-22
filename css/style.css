@@ -96,6 +96,11 @@
   margin-bottom: 5%;
 }
 
+.cima{
+  position: relative;
+  top: -3rem;
+}
+
 .textogrande{
   display: flex;
   flex-direction: row;

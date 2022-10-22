@@ -21,6 +21,10 @@
   margin-bottom: 8rem;
 }
 
+.espacin{
+  justify-content: space-evenly;
+}
+
 .corr{
   top:0rem;
   margin-bottom: 0rem;

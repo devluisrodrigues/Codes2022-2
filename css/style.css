@@ -276,6 +276,14 @@
 
 }
 
+.tit{
+  font-family: 'Convergence','Allerta', sans-serif;
+}
+
+.tex{
+  font-family: 'Vollkorn', 'Roboto Slab';
+}
+
 .textoreviewpequeno {
   background: rgb(184, 184, 184); 
   font-size: 1rem; 

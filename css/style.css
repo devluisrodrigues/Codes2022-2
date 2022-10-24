@@ -308,8 +308,8 @@
     padding: 1.5rem;
     text-align: center;
     font-size: 1rem;
-    font-family: Arial;
-}
+    font-family: 'Convergence','Allerta', sans-serif;
+  }
 
 .botaopequeno{
   display: flex;
@@ -326,7 +326,7 @@
   padding: 1.5rem;
   text-align: center;
   font-size: 1rem;
-  font-family: Arial;
+  font-family: 'Vollkorn', 'Roboto Slab';
 }
 
 .botaogrande{
@@ -341,7 +341,7 @@
     padding: 1.5rem;
     text-align: center;
     font-size: 2rem;
-    font-family: Arial;
+    font-family: 'Convergence','Allerta', sans-serif;
     margin-top: 3rem;
     margin-bottom: 12rem;
     text-decoration: none;
@@ -359,7 +359,7 @@
   padding: 1.5rem;
   text-align: center;
   font-size: 2rem;
-  font-family: Arial;
+  font-family: 'Convergence','Allerta', sans-serif;
   margin-top: 3rem;
   margin-bottom: 0rem;
 }

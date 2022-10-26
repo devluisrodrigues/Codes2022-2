@@ -217,7 +217,8 @@
 
 .review{
   width: 80%;
-  border: 1% solid #C75800;
+  border: 1% solid white;
+  background-color: rgb(72, 22, 133);
 }
 
 .textopequeno {
@@ -258,18 +259,16 @@
 }
 
 .tituloreview {
-  background: rgb(184, 184, 184); 
+  background: rgb(72, 22, 133); 
   font-size: 1.5rem; 
   padding: 1%; 
-  border: .2rem solid rgb(0, 0, 0); 
   margin: 2%;
 }
 
 .textoreview {
-  background: rgb(184, 184, 184); 
+  background: rgb(72, 22, 133); 
   font-size: 1rem; 
   padding: 1%; 
-  border: .2rem solid rgb(0, 0, 0); 
   margin: 10px;
   margin-bottom: 40%;
   font-family: 'Vollkorn', 'Roboto Slab', sans-serif;
@@ -278,10 +277,12 @@
 
 .tit{
   font-family: 'Convergence','Allerta', sans-serif;
+  color: white;
 }
 
 .tex{
   font-family: 'Vollkorn', 'Roboto Slab';
+  color: white;
 }
 
 .textoreviewpequeno {
@@ -378,18 +379,18 @@
 }
 
 .colunafilmes {
-  background: rgb(184, 184, 184); 
+  background: rgb(72, 22, 133); 
   font-size: 1rem; 
   padding: 1%; 
-  border: .2rem solid rgb(0, 0, 0); 
   margin: 10px;
   margin-bottom: 10%;
+  font-family: 'Vollkorn', 'Roboto Slab', sans-serif;
 }
 
 /* Add a black background color to the top navigation bar */
 .topnav {
     width: 90%;
-    background-color: #ffffff;
+    background-color: rgb(72, 22, 133);
   }
   
   /* Style the search box inside the navigation bar */
@@ -402,6 +403,8 @@
     margin-right: -7%;
     margin-bottom: 2%;
     font-size: 2rem;
+    background-color: rgb(72, 22, 133);
+    border-radius: 5rem;
 }
 
 .botaocentro {

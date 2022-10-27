@@ -286,11 +286,11 @@
 }
 
 .textoreviewpequeno {
-  background: rgb(184, 184, 184); 
+  background: rgb(72, 22, 133); 
   font-size: 1rem; 
   padding: 1%; 
-  border: .2rem solid rgb(0, 0, 0); 
   margin: .5rem;
+  margin-top: 1rem;
   margin-right: 4.2rem;
   font-family: 'Vollkorn', 'Roboto Slab', sans-serif;
 
@@ -431,6 +431,7 @@
   margin-right: 10%;
   width: 80%;
   box-sizing: border-box;
+  background-color: rgb(72, 22, 133);
 }
 
 .inputgrande[type=text] {
@@ -441,6 +442,7 @@
   margin-bottom: 50%;
   height: 400%;
   box-sizing: border-box;
+  background-color: rgb(72, 22, 133);
 }
 
 

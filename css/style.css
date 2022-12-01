@@ -449,20 +449,20 @@
 /* Style the navigation bar links */
 
 .abracadabra{
-  background-color: rgb(105, 105, 105);
+  background-color: rgb(72, 22, 133);
   background-image: url(../img/Abracadabra.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .barbie{
-  background-color: rgb(105, 105, 105);
+  background-color: rgb(72, 22, 133);
   background-image: url(../img/Barbie.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .demolidor{
-  background-color: rgb(105, 105, 105);
+  background-color: rgb(72, 22, 133);
   background-image: url(../img/Demolidor.jpg);
   background-repeat: no-repeat;
   background-size: cover;

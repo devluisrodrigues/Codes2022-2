@@ -544,6 +544,20 @@
   background-size: cover;
 }
 
+.TicoETeco{
+  background-color: rgb(72, 22, 133);
+  background-image: url(../img/TicoTeco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Mandalorian{
+  background-color: rgb(72, 22, 133);
+  background-image: url(../img/mandalorian.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #carousel-container {
 	width: 20rem;
 	height:30rem;

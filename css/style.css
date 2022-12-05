@@ -530,6 +530,20 @@
   background-size: cover;
 }
 
+.Pinocchio{
+  background-color: rgb(72, 22, 133);
+  background-image: url(../img/Pinoquio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.SheHulk{
+  background-color: rgb(72, 22, 133);
+  background-image: url(../img/SheHulk.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #carousel-container {
 	width: 20rem;
 	height:30rem;

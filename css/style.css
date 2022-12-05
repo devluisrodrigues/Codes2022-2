@@ -502,6 +502,34 @@
   background-size: cover;
 }
 
+.Invasores{
+  background-color: rgb(72, 22, 133);
+  background-image: url(../img/SecretInvasion.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.SquidGame{
+  background-color: rgb(72, 22, 133);
+  background-image: url(../img/squidgame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Greendale{
+  background-color: rgb(72, 22, 133);
+  background-image: url(../img/community.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.OReiLeão{
+  background-color: rgb(72, 22, 133);
+  background-image: url(../img/ReiLeao.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #carousel-container {
 	width: 20rem;
 	height:30rem;

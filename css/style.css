@@ -481,6 +481,27 @@
   background-size: cover;
 }
 
+.TaDandoOnda{
+  background-color: rgb(72, 22, 133);
+  background-image: url(../img/TaDandoOnda.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.AsBranquelas{
+  background-color: rgb(72, 22, 133);
+  background-image: url(../img/AsBranquelas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Vingadores{
+  background-color: rgb(72, 22, 133);
+  background-image: url(../img/vingadores.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #carousel-container {
 	width: 20rem;
 	height:30rem;

@@ -15,20 +15,36 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log(titulos)
     
     input = document.getElementById("myInput");
-    cabec = document.querySelector('.topnav')
+    cabec = document.querySelector('.topnav');
+    recomend = document.createElement('div');
+    cabec.appendChild(recomend);
     
     input.addEventListener("keypress", function(event) {
         procura = input.value.toUpperCase();
         console.clear();
-        recomend = document.createElement('div');
-        cabec.appendChild(recomend);
+
+        while (recomend.firstChild) {
+            recomend.removeChild(recomend.firstChild);
+        }
 
         for (i = 0; i < titulos.length; i++) {
             a = titulos[i].split('.')[0];
             if (a.toUpperCase().indexOf(procura) > -1) {
                 console.log(a);
+
                 div = document.createElement('div');
-                div.innerHTML = a;
+                h1 = document.createElement('p');
+                h1.classList.add("tit");
+                img = document.createElement('img');
+                img.src = 'img/' + titulos[i];
+                img.height = 80;
+                img.width = 80;
+                div.appendChild(img);
+
+                h1.innerHTML = a;
+                div.appendChild(h1);
+                recomend.appendChild(div);
+
 
             } else {
                 console.log('não encontrado');   

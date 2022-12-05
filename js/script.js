@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     input = document.getElementById("myInput");
     cabec = document.querySelector('.topnav');
     recomend = document.createElement('div');
+    recomend.classList.add('filmes');
     cabec.appendChild(recomend);
     
     input.addEventListener("keypress", function(event) {
@@ -33,18 +34,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.log(a);
 
                 div = document.createElement('div');
+                div.classList.add('recomend');
                 h1 = document.createElement('p');
                 h1.classList.add("tit");
+
                 img = document.createElement('img');
                 img.src = 'img/' + titulos[i];
-                img.height = 80;
-                img.width = 80;
+                img.height = 300;
+                img.width = 180;
                 div.appendChild(img);
 
                 h1.innerHTML = a;
                 div.appendChild(h1);
-                recomend.appendChild(div);
-
+                recomend.appendChild(div); 
 
             } else {
                 console.log('não encontrado');   

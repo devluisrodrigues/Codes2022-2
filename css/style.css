@@ -395,6 +395,7 @@
   
   /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
+    color: white;
     width: 100%;
     float: right;
     padding: 2%;
@@ -443,6 +444,18 @@
   height: 400%;
   box-sizing: border-box;
   background-color: rgb(72, 22, 133);
+}
+
+.recomend {
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.filmes{
+  position: absolute;
+  top: 10%;
 }
 
 

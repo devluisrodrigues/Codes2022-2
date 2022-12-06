@@ -614,9 +614,9 @@
 
 #controls{
 	position: absolute;
-  width: 140%;
+  width: 100%;
 	top: calc( 50% - 25px);
-  left: -20%;
+  left: 0%;
 }
 
 #controls span {

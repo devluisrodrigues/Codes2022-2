@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         while (recomend.firstChild) {
             recomend.removeChild(recomend.firstChild);
         }
+
         j = 0;
         for (i = 0; i < titulos.length; i++) {
             a = titulos[i].split('.')[0];
@@ -50,6 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 h1 = document.createElement('p');
                 h1.classList.add("tit");
+                h1.classList.add('busca');
 
                 img = document.createElement('img');
                 img.src = 'img/' + dados[a]['img.src'];
@@ -65,6 +67,11 @@ document.addEventListener('DOMContentLoaded', function() {
             } else {
                 console.log('não encontrado');   
             } 
+        }
+        if(procura==''){
+            while (recomend.firstChild) {
+                recomend.removeChild(recomend.firstChild);
+            }
         }
         
     });

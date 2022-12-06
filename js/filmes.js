@@ -11,6 +11,7 @@ var filmes = {
     'She Hulk': { "img.src": 'SheHulk.png', 'pag':'SheHulk.html', 'titulo':'She Hulk' },
     'Squid Game': { "img.src": 'squidgame.jpg', 'pag':'SquidGame.html', 'titulo':'Squid Game' },
     'Ta Dando Onda': { "img.src": 'TaDandoOnda.jpg', 'pag':'TaDandoOnda.html', 'titulo':'Ta Dando Onda' },
+    'Tico e Teco': { "img.src": 'TicoTeco.png', 'pag':'TicoETeco.html', 'titulo':'Tico e Teco' },
     'Vingadores': { "img.src": 'vingadores.jpg', 'pag':'Vingadores.html', 'titulo':'Vingadores' }
 };
 

@@ -453,9 +453,16 @@
   justify-content: left;
 }
 
+.busca{
+  position: relative;
+  top: +6.5rem;
+  font-size: 30px;
+
+}
+
 .filmes{
   position: absolute;
-  top: 10%;
+  top: 11.5%;
 }
 
 
@@ -563,6 +570,7 @@
 	height:30rem;
 	position: relative;
 	margin: 10% auto 0;
+  margin-top: 2%;
   border: 10px solid #000;
   
   border-radius: 10px;

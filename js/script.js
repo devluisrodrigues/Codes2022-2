@@ -9,17 +9,14 @@ var transitionCompleted = function(){
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    carrosel = document.querySelector('.carrosel');
-    filmes1 = carrosel.querySelectorAll('li');
-    filmes = [...filmes1];
+    dados = localStorage.getItem('filmes');
+    dados = JSON.parse(dados);
+    console.log(dados);
+
     titulos = [];
 
-    for (variavel of filmes) {
-        code = variavel.querySelector('img').src;
-        code = code.split('/');
-        if(!(titulos.includes(code[4]))) {
-            titulos.push(code[4]);
-        }
+    for(var key in dados) {
+        titulos.push(dados[key]['titulo']);
     }
     console.log(titulos)
     
@@ -29,33 +26,39 @@ document.addEventListener('DOMContentLoaded', function() {
     recomend.classList.add('filmes');
     cabec.appendChild(recomend);
     
-    input.addEventListener("keypress", function(event) {
+    input.addEventListener("input", function(event) {
         procura = input.value.toUpperCase();
         console.clear();
 
         while (recomend.firstChild) {
             recomend.removeChild(recomend.firstChild);
         }
-
+        j = 0;
         for (i = 0; i < titulos.length; i++) {
             a = titulos[i].split('.')[0];
-            if (a.toUpperCase().indexOf(procura) > -1) {
+            if (a.toUpperCase().indexOf(procura) > -1 && j < 3) {
                 console.log(a);
 
                 div = document.createElement('div');
-                div.classList.add('recomend');
+
+                ref = document.createElement('a');
+                ref.href = 'filmes/' + dados[a]['pag'];
+                ref.classList.add('recomend');
+                div.appendChild(ref);
+
                 h1 = document.createElement('p');
                 h1.classList.add("tit");
 
                 img = document.createElement('img');
-                img.src = 'img/' + titulos[i];
-                img.height = 300;
-                img.width = 180;
-                div.appendChild(img);
+                img.src = 'img/' + dados[a]['img.src'];
+                img.height = 230;
+                img.width = 130;
+                ref.appendChild(img);
 
                 h1.innerHTML = a;
-                div.appendChild(h1);
-                recomend.appendChild(div); 
+                ref.appendChild(h1);
+                recomend.appendChild(div);
+                j+= 1;
 
             } else {
                 console.log('não encontrado');   

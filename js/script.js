@@ -1,3 +1,5 @@
+// JAVA != JAVASCRIPT
+
 var index = 0,
     amount = 0,
     currTransl = [],

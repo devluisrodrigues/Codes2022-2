@@ -7,6 +7,7 @@
     <title>Reviews</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/review.js"></script>
 </head>
 
 <body class="fundo">
@@ -19,7 +20,7 @@
     </header>
 
     <main>
-        <a href="reviews.html" class="botaogrande2"><p class="tit">Reviews ★★★★★</p></a>
+        <p class="botaogrande2 tit">Reviews ★★★★★</p>
         <ul class="coluna">
             <li class="linha">
                 <img class="fotodeperfil" src="img/pfp1.png" alt="Foto de Perfil" height="50" width="50">
@@ -47,12 +48,6 @@
         <p class="botaogrande2">DEIXE SUA REVIEW</p>
 
         <ul class="coluna">
-            <li>
-              <p class="textoesquerda">Titulo:</p>
-            </li>
-            <li class="linha">
-                <input type="text" class="input" placeholder="Titulo">
-            </li>
             <div class="star-rating">
                 <input type="radio" name="stars" id="star-a" value="5"/>
                 <label for="star-a"></label>
@@ -73,8 +68,12 @@
                 <p class="textoesquerda">Review:</p>
             </li>
             <li class="linha">
-                <input type="text" class="inputgrande" placeholder="Corpo">
+                <input type="text" class="input" placeholder="Corpo">
             </li>
+            <li>
+                <p class="tit botaogrande enviar_review">Enviar!</p>
+            </li>
+
         </ul>
 
 

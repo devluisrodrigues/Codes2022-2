@@ -432,6 +432,7 @@
   margin-right: 10%;
   width: 80%;
   box-sizing: border-box;
+  color: white;
   background-color: rgb(72, 22, 133);
 }
 
@@ -465,7 +466,10 @@
   top: 11.5%;
 }
 
-
+.enviar_review{
+  width: 10%;
+  justify-content: left;
+}
 /* Style the navigation bar links */
 
 .abracadabra{

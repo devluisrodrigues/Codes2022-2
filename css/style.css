@@ -646,6 +646,7 @@
   justify-content: space-between;
   margin: 10% auto 10%;
   position: relative;
+  margin-bottom: 20%;
 }
 /* hide the inputs */
 .star-rating input {

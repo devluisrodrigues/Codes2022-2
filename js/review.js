@@ -1,3 +1,5 @@
+
+
 document.addEventListener('DOMContentLoaded', function() {
 
     ul = document.querySelector('ul.coluna');
@@ -64,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             li_usu = li.cloneNode(true);
             img = li_usu.querySelector('img');
-            img.src = 'img/FotoPerfil.png';
+            img.src = '../../img/FotoPerfil.png';
             li_usu.querySelector('p').innerHTML = est + text.value;
 
             ul.appendChild(li_usu);

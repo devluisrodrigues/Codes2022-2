@@ -466,8 +466,10 @@
 }
 
 .enviar_review{
-  width: 10%;
-  justify-content: left;
+  justify-content: center;
+  width: 30%;
+  outline: black;
+  outline-width: 7px;
 }
 /* Style the navigation bar links */
 

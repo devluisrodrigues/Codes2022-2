@@ -12,15 +12,16 @@ document.addEventListener('DOMContentLoaded', function() {
     img_fav = btn.querySelector('img');
     console.log(img_fav);
     
-    
-    if(localStorage.getItem(filme) == null) {
-        console.log('Filme não favoritado');
-        localStorage.setItem(filme, false);
-    }
 
     console.log(localStorage.getItem(filme));
     if(localStorage.getItem(filme)) {
         img_fav.src = '../img/listaativo.png';
+    }
+
+    if(localStorage.getItem(filme) == null) {
+        console.log('Filme não favoritado');
+        localStorage.setItem(filme, false);
+        img_fav.src = '../img/addtolist.png';
     }
 
     btn.addEventListener('click', function(event) {

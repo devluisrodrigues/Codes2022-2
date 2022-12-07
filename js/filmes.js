@@ -1,6 +1,5 @@
-localStorage.clear();
 var filmes = {
-    "Abracadabra": { "img.src": 'Abracadabra.png', 'pag':'Abracadabra.html', 'titulo':'Abracadabra' },
+    "Abracadabra 2": { "img.src": 'Abracadabra.png', 'pag':'Abracadabra.html', 'titulo':'Abracadabra 2', 'sinopse': 'Abracadabra 2 é a continuação da comédia clássica de 1993, com as bruxas malvadas, as irmãs Sanderson (Bette Midler, Sarah Jessica Parker e Kathy Najimy) provocando o caos. Fazem 29 anos desde que a vela da chama negra foi acesa e ressuscitou as irmãs bruxas do século 17, e elas retornam nesta continuação sedentas, querendo vingança. Duas jovens acidentalmente trazem de volta as Irmãs Sanderson para a Salem moderna e agora as adolescentes devem impedir que as bruxas vorazes causem mais estrago em Salem antes do amanhecer de Halloween.' },
     'As Branquelas' : { "img.src": 'AsBranquelas.jpg', 'pag':'AsBranquelas.html', 'titulo':'As Branquelas' },
     'Barbie' : { "img.src": 'barbiecapa.jpg', 'pag':'Barbie.html', 'titulo':'Barbie' },
     'Community': { "img.src": 'community.jpg', 'pag':'community.html', 'titulo':'Community' },
@@ -17,3 +16,6 @@ var filmes = {
 
 // Put the object into storage
 localStorage.setItem('filmes', JSON.stringify(filmes));
+
+// Retrieve the object from storage
+var retrievedObject = localStorage.getItem('filmes');

@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     ul = body.querySelector('ul.coluna');
     li = ul.querySelector('li.linha');
 
-    clone = li.cloneNode(true);
     while (ul.firstChild) {
         ul.removeChild(ul.firstChild);
     }
@@ -13,8 +12,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     keys = Object.keys(localStorage);
     console.log(keys);
+
     for(titulo in keys) {
         if(keys[titulo] != 'filmes') {
+            clone = li.cloneNode(true);
             titulo = keys[titulo];
             console.log(catalogo[titulo]);
 

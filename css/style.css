@@ -570,6 +570,13 @@
   background-size: cover;
 }
 
+.Brooklyn99{
+  background-color: rgb(72, 22, 133);
+  background-image: url(../img/Brooklyn99.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #carousel-container {
 	width: 20rem;
 	height:30rem;

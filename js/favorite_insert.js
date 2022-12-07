@@ -14,13 +14,13 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log(keys);
 
     for(titulo in keys) {
-        if(keys[titulo] != 'filmes') {
+        if(keys[titulo] != 'filmes' && localStorage.getItem(keys[titulo]) == 'true') {
             clone = li.cloneNode(true);
             titulo = keys[titulo];
             console.log(catalogo[titulo]);
 
             link = clone.querySelector('a');
-            link.href = catalogo[titulo]['pag'];
+            link.href = 'filmes/' + catalogo[titulo]['pag'];
 
             img = link.querySelector('img');
             img.src = 'img/' + catalogo[titulo]['img.src'];

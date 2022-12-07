@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (ul_calend.firstChild == null) {
         texto_calend = clone_calend.querySelector('p');
-        texto_calend.innerHTML = 'Nenhum título ainda não lançado foi favoritado';
+        texto_calend.innerHTML = 'Nenhum título em pré-estreia foi favoritado';
         ul_calend.appendChild(clone_calend);
     }
 
